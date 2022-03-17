@@ -12,7 +12,7 @@ difficulty = input("easy or hard?")
 if difficulty == "easy":
     health = 10
 else:
-    difficulty = 5
+    health = 5
 for x in range(health):
     remainder = health
     loop()
